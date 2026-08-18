@@ -1,5 +1,1 @@
-# Atividade 02
-
-Descrição da atividade-02.
-
-> Inicialmente esta atividade está sem definição detalhada. Este arquivo será atualizado com o enunciado específico quando a atividade for publicada no Google Classroom.
+Evidenciar a execução do programa Produtor-Consumidor em Java anexo aos Recursos. Fazer print da execução do programa com o nome do aluno. Postar na pasta atividade-02 do seu GitHub. Copiar o link do repositório/atividade-02 no Google Classroom.
