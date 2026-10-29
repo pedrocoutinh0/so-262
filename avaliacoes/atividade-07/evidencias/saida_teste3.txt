@@ -1,0 +1,27 @@
+**********************************************************************
+Aluno: Pedro Coutinho
+Atividade 07 - Algoritmo do Banqueiro | Teste 3 - P4 solicita [3, 3, 0] (apos o Teste 2)
+Data/hora: 29/10/2026 09:57:02 | Python 3.13.18
+**********************************************************************
+>>> Estado de partida: apos a concessao do Teste 2 (Disponivel = [2, 3, 0])
+
+######################################################################
+SOLICITAÇÃO DE RECURSOS PELO PROCESSO P4: [3, 3, 0]
+######################################################################
+⏳ PROCESSO BLOQUEADO: Recursos insuficientes disponíveis no momento.
+   Solicitado: 3 > Disponível 2 para o recurso R0
+   P4 deve aguardar a liberação de recursos por outros processos.
+======================================================================
+ESTADO ATUAL DO SISTEMA
+======================================================================
+Recursos Totais (E):     [10, 5, 7]
+Recursos Disponíveis (A): [2, 3, 0]
+----------------------------------------------------------------------
+Processo   | Alocado (C)     | Máximo (Max)    | Necessidade (Need)
+----------------------------------------------------------------------
+P0         | [0, 1, 0]       | [7, 5, 3]       | [7, 4, 3]      
+P1         | [3, 0, 2]       | [3, 2, 2]       | [0, 2, 0]      
+P2         | [3, 0, 2]       | [9, 0, 2]       | [6, 0, 0]      
+P3         | [2, 1, 1]       | [2, 2, 2]       | [0, 1, 1]      
+P4         | [0, 0, 2]       | [4, 3, 3]       | [4, 3, 1]      
+======================================================================
